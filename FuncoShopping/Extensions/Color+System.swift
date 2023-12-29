@@ -2,9 +2,7 @@ import SwiftUI
 
 extension Color {
     static let label: Color = Color(uiColor: UIColor.label)
-
-    static let backgroundColor: Color = Color(uiColor: UIColor(named: "backgroundColor") ?? .secondarySystemBackground)
-
+    static let background: Color = Color(uiColor: .systemBackground)
     static var colorArray = [Color.red, Color.yellow, Color.purple, Color.green, Color.orange, Color.blue, Color.pink]
 }
 

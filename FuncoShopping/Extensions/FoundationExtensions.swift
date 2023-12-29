@@ -40,6 +40,6 @@ extension Double {
     }
 
     func clean(places: Int) -> String {
-        String(format: "%, \(places)", self)
+        String(format: "%.\(places)f", self)
     }
 }

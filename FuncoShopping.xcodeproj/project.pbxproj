@@ -34,6 +34,7 @@
 		627BD9E12B3F7BB600AF2190 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E02B3F7BB600AF2190 /* ImageConstants.swift */; };
 		627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */; };
 		627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */; };
+		627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		627BD9E02B3F7BB600AF2190 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 		627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
 		627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */,
 				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
 				627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */,
+				627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				627BD9DC2B3F79E200AF2190 /* DeviceShakeViewModifier.swift in Sources */,
+				627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */,
 				627BD98E2B3F60A500AF2190 /* ContentView.swift in Sources */,
 				627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */,
 				627BD9DF2B3F7A2100AF2190 /* FontManager.swift in Sources */,
