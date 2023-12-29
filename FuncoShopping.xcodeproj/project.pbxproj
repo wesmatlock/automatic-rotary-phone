@@ -28,6 +28,12 @@
 		627BD9D32B3F6E2100AF2190 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D22B3F6E2100AF2190 /* CartButton.swift */; };
 		627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D52B3F6F7D00AF2190 /* Color+System.swift */; };
 		627BD9D82B3F70FC00AF2190 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */; };
+		627BD9DA2B3F76F200AF2190 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D92B3F76F200AF2190 /* UIApplicationExtensions.swift */; };
+		627BD9DC2B3F79E200AF2190 /* DeviceShakeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */; };
+		627BD9DF2B3F7A2100AF2190 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9DE2B3F7A2100AF2190 /* FontManager.swift */; };
+		627BD9E12B3F7BB600AF2190 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E02B3F7BB600AF2190 /* ImageConstants.swift */; };
+		627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */; };
+		627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +78,12 @@
 		627BD9D22B3F6E2100AF2190 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		627BD9D52B3F6F7D00AF2190 /* Color+System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+System.swift"; sourceTree = "<group>"; };
 		627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		627BD9D92B3F76F200AF2190 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceShakeViewModifier.swift; sourceTree = "<group>"; };
+		627BD9DE2B3F7A2100AF2190 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		627BD9E02B3F7BB600AF2190 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
+		627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 		627BD98A2B3F60A500AF2190 /* FuncoShopping */ = {
 			isa = PBXGroup;
 			children = (
+				627BD9DD2B3F7A1800AF2190 /* Utils */,
 				627BD9D42B3F6F5000AF2190 /* Extensions */,
 				627BD9CD2B3F6B5800AF2190 /* Views */,
 				627BD9CA2B3F644400AF2190 /* View Models */,
@@ -220,6 +233,9 @@
 				627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */,
 				627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */,
 				627BD9D22B3F6E2100AF2190 /* CartButton.swift */,
+				627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */,
+				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
+				627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,8 +245,18 @@
 			children = (
 				627BD9D52B3F6F7D00AF2190 /* Color+System.swift */,
 				627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */,
+				627BD9D92B3F76F200AF2190 /* UIApplicationExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		627BD9DD2B3F7A1800AF2190 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9DE2B3F7A2100AF2190 /* FontManager.swift */,
+				627BD9E02B3F7BB600AF2190 /* ImageConstants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,12 +394,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627BD9DC2B3F79E200AF2190 /* DeviceShakeViewModifier.swift in Sources */,
 				627BD98E2B3F60A500AF2190 /* ContentView.swift in Sources */,
+				627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */,
+				627BD9DF2B3F7A2100AF2190 /* FontManager.swift in Sources */,
 				627BD9C72B3F624500AF2190 /* Clothing.swift in Sources */,
 				627BD9C92B3F62A600AF2190 /* Checkout.swift in Sources */,
 				627BD9C52B3F619800AF2190 /* FunkoCategory.swift in Sources */,
 				627BD98C2B3F60A500AF2190 /* FuncoShoppingApp.swift in Sources */,
+				627BD9E12B3F7BB600AF2190 /* ImageConstants.swift in Sources */,
 				627BD9D32B3F6E2100AF2190 /* CartButton.swift in Sources */,
+				627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */,
+				627BD9DA2B3F76F200AF2190 /* UIApplicationExtensions.swift in Sources */,
 				627BD9D12B3F6BDD00AF2190 /* NavigationButton.swift in Sources */,
 				627BD9CC2B3F645100AF2190 /* MainViewModel.swift in Sources */,
 				627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */,

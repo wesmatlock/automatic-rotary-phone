@@ -19,7 +19,7 @@ extension Color {
     }
 
     static func randomColor() -> Color {
-        return Color(UIColor.random())
+        Color(UIColor.random())
     }
 
     static func getRandomColor(remove: Bool = true) -> Color {
@@ -106,7 +106,7 @@ extension UIColor {
 
 extension UIColor {
     func toColor() -> Color {
-        return Color(self)
+        Color(self)
     }
 }
 
