@@ -14,6 +14,20 @@
 		627BD99D2B3F60A600AF2190 /* FuncoShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD99C2B3F60A600AF2190 /* FuncoShoppingTests.swift */; };
 		627BD9A72B3F60A600AF2190 /* FuncoShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9A62B3F60A600AF2190 /* FuncoShoppingUITests.swift */; };
 		627BD9A92B3F60A600AF2190 /* FuncoShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9A82B3F60A600AF2190 /* FuncoShoppingUITestsLaunchTests.swift */; };
+		627BD9BF2B3F617300AF2190 /* BungeeLayers-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 627BD9B92B3F617300AF2190 /* BungeeLayers-Regular.otf */; };
+		627BD9C02B3F617300AF2190 /* Degular-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BD9BB2B3F617300AF2190 /* Degular-Regular.ttf */; };
+		627BD9C12B3F617300AF2190 /* Degular-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BD9BC2B3F617300AF2190 /* Degular-Bold.ttf */; };
+		627BD9C22B3F617300AF2190 /* Degular-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BD9BD2B3F617300AF2190 /* Degular-Medium.ttf */; };
+		627BD9C32B3F617300AF2190 /* Degular-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 627BD9BE2B3F617300AF2190 /* Degular-Semibold.ttf */; };
+		627BD9C52B3F619800AF2190 /* FunkoCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9C42B3F619800AF2190 /* FunkoCategory.swift */; };
+		627BD9C72B3F624500AF2190 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9C62B3F624500AF2190 /* Clothing.swift */; };
+		627BD9C92B3F62A600AF2190 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9C82B3F62A600AF2190 /* Checkout.swift */; };
+		627BD9CC2B3F645100AF2190 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9CB2B3F645100AF2190 /* MainViewModel.swift */; };
+		627BD9CF2B3F6B6E00AF2190 /* SlashRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */; };
+		627BD9D12B3F6BDD00AF2190 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */; };
+		627BD9D32B3F6E2100AF2190 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D22B3F6E2100AF2190 /* CartButton.swift */; };
+		627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D52B3F6F7D00AF2190 /* Color+System.swift */; };
+		627BD9D82B3F70FC00AF2190 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		627BD9A22B3F60A600AF2190 /* FuncoShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuncoShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		627BD9A62B3F60A600AF2190 /* FuncoShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncoShoppingUITests.swift; sourceTree = "<group>"; };
 		627BD9A82B3F60A600AF2190 /* FuncoShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncoShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		627BD9B92B3F617300AF2190 /* BungeeLayers-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeLayers-Regular.otf"; sourceTree = "<group>"; };
+		627BD9BB2B3F617300AF2190 /* Degular-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Regular.ttf"; sourceTree = "<group>"; };
+		627BD9BC2B3F617300AF2190 /* Degular-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Bold.ttf"; sourceTree = "<group>"; };
+		627BD9BD2B3F617300AF2190 /* Degular-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Medium.ttf"; sourceTree = "<group>"; };
+		627BD9BE2B3F617300AF2190 /* Degular-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Degular-Semibold.ttf"; sourceTree = "<group>"; };
+		627BD9C42B3F619800AF2190 /* FunkoCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoCategory.swift; sourceTree = "<group>"; };
+		627BD9C62B3F624500AF2190 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		627BD9C82B3F62A600AF2190 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		627BD9CB2B3F645100AF2190 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlashRectangle.swift; sourceTree = "<group>"; };
+		627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		627BD9D22B3F6E2100AF2190 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		627BD9D52B3F6F7D00AF2190 /* Color+System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+System.swift"; sourceTree = "<group>"; };
+		627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +122,13 @@
 		627BD98A2B3F60A500AF2190 /* FuncoShopping */ = {
 			isa = PBXGroup;
 			children = (
+				627BD9D42B3F6F5000AF2190 /* Extensions */,
+				627BD9CD2B3F6B5800AF2190 /* Views */,
+				627BD9CA2B3F644400AF2190 /* View Models */,
+				627BD9B62B3F614000AF2190 /* Resources */,
+				627BD9B52B3F612A00AF2190 /* Models */,
 				627BD98B2B3F60A500AF2190 /* FuncoShoppingApp.swift */,
 				627BD98D2B3F60A500AF2190 /* ContentView.swift */,
-				627BD98F2B3F60A600AF2190 /* Assets.xcassets */,
 				627BD9912B3F60A600AF2190 /* Preview Content */,
 			);
 			path = FuncoShopping;
@@ -125,6 +157,80 @@
 				627BD9A82B3F60A600AF2190 /* FuncoShoppingUITestsLaunchTests.swift */,
 			);
 			path = FuncoShoppingUITests;
+			sourceTree = "<group>";
+		};
+		627BD9B52B3F612A00AF2190 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9C42B3F619800AF2190 /* FunkoCategory.swift */,
+				627BD9C62B3F624500AF2190 /* Clothing.swift */,
+				627BD9C82B3F62A600AF2190 /* Checkout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		627BD9B62B3F614000AF2190 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9B72B3F617300AF2190 /* Fonts */,
+				627BD98F2B3F60A600AF2190 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		627BD9B72B3F617300AF2190 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9B82B3F617300AF2190 /* Bungee */,
+				627BD9BA2B3F617300AF2190 /* Degular */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		627BD9B82B3F617300AF2190 /* Bungee */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9B92B3F617300AF2190 /* BungeeLayers-Regular.otf */,
+			);
+			path = Bungee;
+			sourceTree = "<group>";
+		};
+		627BD9BA2B3F617300AF2190 /* Degular */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9BB2B3F617300AF2190 /* Degular-Regular.ttf */,
+				627BD9BC2B3F617300AF2190 /* Degular-Bold.ttf */,
+				627BD9BD2B3F617300AF2190 /* Degular-Medium.ttf */,
+				627BD9BE2B3F617300AF2190 /* Degular-Semibold.ttf */,
+			);
+			path = Degular;
+			sourceTree = "<group>";
+		};
+		627BD9CA2B3F644400AF2190 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9CB2B3F645100AF2190 /* MainViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		627BD9CD2B3F6B5800AF2190 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */,
+				627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */,
+				627BD9D22B3F6E2100AF2190 /* CartButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		627BD9D42B3F6F5000AF2190 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				627BD9D52B3F6F7D00AF2190 /* Color+System.swift */,
+				627BD9D72B3F70FC00AF2190 /* FoundationExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +337,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627BD9C12B3F617300AF2190 /* Degular-Bold.ttf in Resources */,
+				627BD9C32B3F617300AF2190 /* Degular-Semibold.ttf in Resources */,
+				627BD9BF2B3F617300AF2190 /* BungeeLayers-Regular.otf in Resources */,
+				627BD9C22B3F617300AF2190 /* Degular-Medium.ttf in Resources */,
 				627BD9932B3F60A600AF2190 /* Preview Assets.xcassets in Resources */,
+				627BD9C02B3F617300AF2190 /* Degular-Regular.ttf in Resources */,
 				627BD9902B3F60A600AF2190 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +369,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				627BD98E2B3F60A500AF2190 /* ContentView.swift in Sources */,
+				627BD9C72B3F624500AF2190 /* Clothing.swift in Sources */,
+				627BD9C92B3F62A600AF2190 /* Checkout.swift in Sources */,
+				627BD9C52B3F619800AF2190 /* FunkoCategory.swift in Sources */,
 				627BD98C2B3F60A500AF2190 /* FuncoShoppingApp.swift in Sources */,
+				627BD9D32B3F6E2100AF2190 /* CartButton.swift in Sources */,
+				627BD9D12B3F6BDD00AF2190 /* NavigationButton.swift in Sources */,
+				627BD9CC2B3F645100AF2190 /* MainViewModel.swift in Sources */,
+				627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */,
+				627BD9D82B3F70FC00AF2190 /* FoundationExtensions.swift in Sources */,
+				627BD9CF2B3F6B6E00AF2190 /* SlashRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
