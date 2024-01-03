@@ -35,6 +35,8 @@
 		627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */; };
 		627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */; };
 		627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */; };
+		627BD9E92B3F8B1E00AF2190 /* SmallClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */; };
+		627BD9EB2B45994600AF2190 /* SmallFunkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilders.swift; sourceTree = "<group>"; };
 		627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 		627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
+		627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallClothingView.swift; sourceTree = "<group>"; };
+		627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallFunkoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +243,8 @@
 				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
 				627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */,
 				627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */,
+				627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */,
+				627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,12 +406,14 @@
 				627BD9DC2B3F79E200AF2190 /* DeviceShakeViewModifier.swift in Sources */,
 				627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */,
 				627BD98E2B3F60A500AF2190 /* ContentView.swift in Sources */,
+				627BD9E92B3F8B1E00AF2190 /* SmallClothingView.swift in Sources */,
 				627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */,
 				627BD9DF2B3F7A2100AF2190 /* FontManager.swift in Sources */,
 				627BD9C72B3F624500AF2190 /* Clothing.swift in Sources */,
 				627BD9C92B3F62A600AF2190 /* Checkout.swift in Sources */,
 				627BD9C52B3F619800AF2190 /* FunkoCategory.swift in Sources */,
 				627BD98C2B3F60A500AF2190 /* FuncoShoppingApp.swift in Sources */,
+				627BD9EB2B45994600AF2190 /* SmallFunkoView.swift in Sources */,
 				627BD9E12B3F7BB600AF2190 /* ImageConstants.swift in Sources */,
 				627BD9D32B3F6E2100AF2190 /* CartButton.swift in Sources */,
 				627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */,
