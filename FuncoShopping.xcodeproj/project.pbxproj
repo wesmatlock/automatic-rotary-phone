@@ -43,6 +43,7 @@
 		627BD9F32B45DF5400AF2190 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F22B45DF5400AF2190 /* SearchView.swift */; };
 		627BD9F52B45E35D00AF2190 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F42B45E35D00AF2190 /* CloseView.swift */; };
 		627BD9F72B45E9B800AF2190 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F62B45E9B800AF2190 /* CheckoutView.swift */; };
+		627BD9FA2B45F1B400AF2190 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F92B45F1B400AF2190 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		627BD9F42B45E35D00AF2190 /* CloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseView.swift; sourceTree = "<group>"; };
 		627BD9F62B45E9B800AF2190 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		627BD9F82B45ED6F00AF2190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		627BD9F92B45F1B400AF2190 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
 				627BD9F22B45DF5400AF2190 /* SearchView.swift */,
 				627BD9F62B45E9B800AF2190 /* CheckoutView.swift */,
+				627BD9F92B45F1B400AF2190 /* MainView.swift */,
 				627BD9F42B45E35D00AF2190 /* CloseView.swift */,
 			);
 			path = Views;
@@ -442,6 +445,7 @@
 				627BD9D12B3F6BDD00AF2190 /* NavigationButton.swift in Sources */,
 				627BD9EF2B45D7A500AF2190 /* FunkoView.swift in Sources */,
 				627BD9CC2B3F645100AF2190 /* MainViewModel.swift in Sources */,
+				627BD9FA2B45F1B400AF2190 /* MainView.swift in Sources */,
 				627BD9ED2B45C71A00AF2190 /* LargeFunkoView.swift in Sources */,
 				627BD9F72B45E9B800AF2190 /* CheckoutView.swift in Sources */,
 				627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */,
