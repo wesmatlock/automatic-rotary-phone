@@ -7,7 +7,7 @@ struct CheckoutRowView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
-                .foregroundStyle(.backgroundNeu)
+                .foregroundStyle(.backgroundNew)
                 .shadow(color: .label.opacity(0.035), radius: 7, x: 0, y: 1)
 
             HStack(spacing: 24) {
@@ -76,7 +76,7 @@ struct CheckoutRowView: View {
                 .frame(height: 28)
                 .background {
                     Rectangle()
-                        .foregroundStyle(.backgroundNeu)
+                        .foregroundStyle(.backgroundNew)
                 }
 
             Button {

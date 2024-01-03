@@ -37,6 +37,12 @@
 		627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */; };
 		627BD9E92B3F8B1E00AF2190 /* SmallClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */; };
 		627BD9EB2B45994600AF2190 /* SmallFunkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */; };
+		627BD9ED2B45C71A00AF2190 /* LargeFunkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9EC2B45C71A00AF2190 /* LargeFunkoView.swift */; };
+		627BD9EF2B45D7A500AF2190 /* FunkoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9EE2B45D7A500AF2190 /* FunkoView.swift */; };
+		627BD9F12B45DB3D00AF2190 /* FunkoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F02B45DB3D00AF2190 /* FunkoScrollView.swift */; };
+		627BD9F32B45DF5400AF2190 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F22B45DF5400AF2190 /* SearchView.swift */; };
+		627BD9F52B45E35D00AF2190 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F42B45E35D00AF2190 /* CloseView.swift */; };
+		627BD9F72B45E9B800AF2190 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627BD9F62B45E9B800AF2190 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +96,13 @@
 		627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutRowView.swift; sourceTree = "<group>"; };
 		627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallClothingView.swift; sourceTree = "<group>"; };
 		627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallFunkoView.swift; sourceTree = "<group>"; };
+		627BD9EC2B45C71A00AF2190 /* LargeFunkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFunkoView.swift; sourceTree = "<group>"; };
+		627BD9EE2B45D7A500AF2190 /* FunkoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoView.swift; sourceTree = "<group>"; };
+		627BD9F02B45DB3D00AF2190 /* FunkoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoScrollView.swift; sourceTree = "<group>"; };
+		627BD9F22B45DF5400AF2190 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		627BD9F42B45E35D00AF2190 /* CloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseView.swift; sourceTree = "<group>"; };
+		627BD9F62B45E9B800AF2190 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		627BD9F82B45ED6F00AF2190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +153,7 @@
 		627BD98A2B3F60A500AF2190 /* FuncoShopping */ = {
 			isa = PBXGroup;
 			children = (
+				627BD9F82B45ED6F00AF2190 /* Info.plist */,
 				627BD9DD2B3F7A1800AF2190 /* Utils */,
 				627BD9D42B3F6F5000AF2190 /* Extensions */,
 				627BD9CD2B3F6B5800AF2190 /* Views */,
@@ -236,15 +250,21 @@
 		627BD9CD2B3F6B5800AF2190 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */,
-				627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */,
 				627BD9D22B3F6E2100AF2190 /* CartButton.swift */,
-				627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */,
-				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
-				627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */,
 				627BD9E62B3F821600AF2190 /* CheckoutRowView.swift */,
+				627BD9E42B3F7CA100AF2190 /* CustomScrollView.swift */,
+				627BD9DB2B3F79E200AF2190 /* DeviceShakeViewModifier.swift */,
+				627BD9F02B45DB3D00AF2190 /* FunkoScrollView.swift */,
+				627BD9EE2B45D7A500AF2190 /* FunkoView.swift */,
+				627BD9EC2B45C71A00AF2190 /* LargeFunkoView.swift */,
+				627BD9D02B3F6BDD00AF2190 /* NavigationButton.swift */,
+				627BD9CE2B3F6B6E00AF2190 /* SlashRectangle.swift */,
 				627BD9E82B3F8B1E00AF2190 /* SmallClothingView.swift */,
 				627BD9EA2B45994600AF2190 /* SmallFunkoView.swift */,
+				627BD9E22B3F7BF300AF2190 /* ViewBuilders.swift */,
+				627BD9F22B45DF5400AF2190 /* SearchView.swift */,
+				627BD9F62B45E9B800AF2190 /* CheckoutView.swift */,
+				627BD9F42B45E35D00AF2190 /* CloseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -407,6 +427,7 @@
 				627BD9E72B3F821600AF2190 /* CheckoutRowView.swift in Sources */,
 				627BD98E2B3F60A500AF2190 /* ContentView.swift in Sources */,
 				627BD9E92B3F8B1E00AF2190 /* SmallClothingView.swift in Sources */,
+				627BD9F32B45DF5400AF2190 /* SearchView.swift in Sources */,
 				627BD9E32B3F7BF300AF2190 /* ViewBuilders.swift in Sources */,
 				627BD9DF2B3F7A2100AF2190 /* FontManager.swift in Sources */,
 				627BD9C72B3F624500AF2190 /* Clothing.swift in Sources */,
@@ -419,10 +440,15 @@
 				627BD9E52B3F7CA100AF2190 /* CustomScrollView.swift in Sources */,
 				627BD9DA2B3F76F200AF2190 /* UIApplicationExtensions.swift in Sources */,
 				627BD9D12B3F6BDD00AF2190 /* NavigationButton.swift in Sources */,
+				627BD9EF2B45D7A500AF2190 /* FunkoView.swift in Sources */,
 				627BD9CC2B3F645100AF2190 /* MainViewModel.swift in Sources */,
+				627BD9ED2B45C71A00AF2190 /* LargeFunkoView.swift in Sources */,
+				627BD9F72B45E9B800AF2190 /* CheckoutView.swift in Sources */,
 				627BD9D62B3F6F7D00AF2190 /* Color+System.swift in Sources */,
+				627BD9F12B45DB3D00AF2190 /* FunkoScrollView.swift in Sources */,
 				627BD9D82B3F70FC00AF2190 /* FoundationExtensions.swift in Sources */,
 				627BD9CF2B3F6B6E00AF2190 /* SlashRectangle.swift in Sources */,
+				627BD9F52B45E35D00AF2190 /* CloseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +615,7 @@
 				DEVELOPMENT_TEAM = PVKFJ5KXUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuncoShopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -618,6 +645,7 @@
 				DEVELOPMENT_TEAM = PVKFJ5KXUY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuncoShopping/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

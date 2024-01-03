@@ -10,7 +10,7 @@ struct SmallClothingView: View {
         VStack {
             ZStack {
                 RoundedRectangle(cornerRadius: 24)
-                    .foregroundStyle(.backgroundNeu)
+                    .foregroundStyle(.backgroundNew)
                     .shadow(color: .label.opacity(0.05), radius: 7, x: 1, y: 1)
                 Image(clothing.image)
                     .resizable()
